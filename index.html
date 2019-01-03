@@ -1,0 +1,2696 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="狮子座火神,aviyu,技术,golang,linux,docker,机器学习,csgo">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="技术、游戏、文学、漫画">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aviyu">
+<meta property="og:url" content="https://www.aviyu.com/index.html">
+<meta property="og:site_name" content="Aviyu">
+<meta property="og:description" content="技术、游戏、文学、漫画">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Aviyu">
+<meta name="twitter:description" content="技术、游戏、文学、漫画">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.aviyu.com/">
+
+
+ <meta http-equiv="Content-Language" content="zh-cn">
+ <meta http-equiv="”Content-Type”" content="”text/html;" charset="utf8″">
+ <meta name="”keywords”" content="”狮子座火神,aviyu,博客,技术,csgo,LeoVulcan”">
+ <meta name="”description”" content="”aviyu的博客，工作许多年，积累了不少东西，但是都没有记录下来，从现在开始在这里记录一些东西，也做为一个交流的平台，广交朋友。”">
+
+
+  <title>Aviyu</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Aviyu</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">积累与分享</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/08/07/golang/chan/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/07/golang/chan/" itemprop="url">go语言channel详解</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-07T10:28:47+08:00">
+                2018-08-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/golang/" itemprop="url" rel="index">
+                    <span itemprop="name">golang</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/07/golang/chan/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/08/07/golang/chan/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="声明chan"><a href="#声明chan" class="headerlink" title="声明chan"></a>声明chan</h1><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//声明一个双向chan</span></span><br><span class="line"><span class="keyword">var</span> commanChan <span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;</span><br><span class="line"><span class="comment">//声明一个双向channel的channel</span></span><br><span class="line"><span class="keyword">var</span> commanChan <span class="keyword">chan</span> <span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;</span><br><span class="line"><span class="comment">//声明一个只读的channel</span></span><br><span class="line"><span class="keyword">var</span> writeOnlyChan <span class="keyword">chan</span>&lt;- <span class="keyword">interface</span>&#123;&#125;</span><br><span class="line"><span class="comment">//声明一个只写的channel</span></span><br><span class="line"><span class="keyword">var</span> readOnlyChan &lt;-<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="make-chan"><a href="#make-chan" class="headerlink" title="make chan"></a>make chan</h1><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//不带缓冲区的chan</span></span><br><span class="line">oneChan := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;)</span><br><span class="line"><span class="comment">//带缓冲区的chan</span></span><br><span class="line">twoChan := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;,<span class="number">1</span>)</span><br><span class="line"><span class="comment">//带10个缓冲区的chan</span></span><br><span class="line">threeChan := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;,<span class="number">10</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="无缓冲的channel"><a href="#无缓冲的channel" class="headerlink" title="无缓冲的channel"></a>无缓冲的channel</h2><font color="#FF4444">无缓冲的chan是同步的，就是说无论是『读』还是『写』，如果chan没有其它协程在进行相应相反方向的的『写』或者『读』，都会造成阻塞，简单的说就是chan如果不是同时有读写两种操作就会阻塞。</font> <font color="gray">（运行时读写必定一前一后，这里所谓的『同时』只是一个时间点）</font>
+
+<ul>
+<li>运行时报错举例：</li>
+</ul>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;)</span><br><span class="line">	fmt.Println(&lt;-c)</span><br><span class="line">	c &lt;- <span class="string">"hello chan"</span></span><br><span class="line">&#125; </span><br><span class="line"><span class="comment">//输出</span></span><br><span class="line"><span class="comment">//fatal error: all goroutines are asleep - deadlock!</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">// goroutine 1 [chan receive]:</span></span><br><span class="line"><span class="comment">// main.main()</span></span><br><span class="line"><span class="comment">//         ......./main.go:7 +0x5f</span></span><br><span class="line"><span class="comment">// exit status 2</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;)</span><br><span class="line">	c &lt;- <span class="string">"hello chan"</span></span><br><span class="line">	fmt.Println(&lt;-c)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//输出</span></span><br><span class="line"><span class="comment">//fatal error: all goroutines are asleep - deadlock!</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">// goroutine 1 [chan receive]:</span></span><br><span class="line"><span class="comment">// main.main()</span></span><br><span class="line"><span class="comment">//         ......./main.go:7 +0x5f</span></span><br><span class="line"><span class="comment">// exit status 2</span></span><br></pre></td></tr></table></figure>
+<p>上面两段代码都会在第7行阻塞并且报错：死锁（deadlock）错误！因为在第7行读和写都会阻塞，第8行的代码运行不到，第7行代码永久阻塞。</p>
+<p>如何让上面的代码正常执行呢？修正的方法如下：<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;)</span><br><span class="line">    <span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span>&#123;</span><br><span class="line">	    c &lt;- <span class="string">"hello chan"</span> </span><br><span class="line">    &#125;()</span><br><span class="line">	fmt.Println(&lt;-c)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出：</span></span><br><span class="line"><span class="comment">//hello chan</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;)</span><br><span class="line">	<span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">	    fmt.Println(<span class="string">"r"</span>)</span><br><span class="line">		fmt.Println(&lt;-c)</span><br><span class="line">	&#125;()</span><br><span class="line">	fmt.Println(<span class="string">"w"</span>)</span><br><span class="line">	c &lt;- <span class="string">"hello chan"</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出：</span></span><br><span class="line"><span class="comment">// w</span></span><br><span class="line"><span class="comment">// r</span></span><br><span class="line"><span class="comment">// hello chan</span></span><br></pre></td></tr></table></figure>
+<p>原理很简单：如第二段代码所示，这里我加了两行代码来清晰的了解代码运行过程，先是运行main中的channel进行写操作，然后阻塞在第12行，然后运行的第7行的goroutine中的读操作并打印。</p>
+<h2 id="带缓冲的channel"><a href="#带缓冲的channel" class="headerlink" title="带缓冲的channel"></a>带缓冲的channel</h2><p>刚才说不带缓冲的channel是同步的，那么带缓冲的channel是不是异步的呢？</p>
+<font color="#FF4444">很抱歉，不是异步的，区别仅仅是多了个缓冲区而已。那么这个缓冲区怎么理解呢？</font> 
+
+<p>我们以带一个缓冲区的channel为例，代码如下<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;, <span class="number">1</span>)  </span><br><span class="line">	fmt.Println(<span class="string">"w"</span>)</span><br><span class="line">	c &lt;- <span class="string">"hello chan"</span>  </span><br><span class="line">	fmt.Println(<span class="string">"r"</span>)</span><br><span class="line">	fmt.Println(&lt;-c) </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 输出：</span></span><br><span class="line"><span class="comment">// w</span></span><br><span class="line"><span class="comment">// r</span></span><br><span class="line"><span class="comment">// hello chan</span></span><br></pre></td></tr></table></figure></p>
+<p>唉？还说不是异步的，这不是在一个goroutine里跑的很好吗？打印出来了”hello chan”并且代码的第8行并没有阻塞。那么我们把代码稍稍改一下试试。</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;, <span class="number">1</span>)  </span><br><span class="line">	fmt.Println(<span class="string">"w"</span>)</span><br><span class="line">	c &lt;- <span class="string">"hello chan"</span>    </span><br><span class="line">	fmt.Println(<span class="string">"w"</span>)</span><br><span class="line">	c &lt;- <span class="string">"hello chan"</span>  </span><br><span class="line">	fmt.Println(<span class="string">"r"</span>)</span><br><span class="line">	fmt.Println(&lt;-c) </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 输出：</span></span><br><span class="line"><span class="comment">// w</span></span><br><span class="line"><span class="comment">// w</span></span><br><span class="line"><span class="comment">// fatal error: all goroutines are asleep - deadlock!</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// goroutine 1 [chan send]:</span></span><br><span class="line"><span class="comment">// main.main()</span></span><br><span class="line"><span class="comment">//        ........./main.go:12 +0x14a</span></span><br><span class="line"><span class="comment">// exit status 2</span></span><br></pre></td></tr></table></figure>
+<p>当我们再读操作之前再加一个写操作的时候，报出了和之前无缓冲区channel一样的错误：deadlock。同样的，如果我们在最后加一个读操作一样会报错。<font color="#FF4444"><strong>这说明缓冲区的作用仅仅是缓冲区，即带缓冲区的channel有一个缓冲区暂时将读结果存起来了，在缓冲区充足的情况下未发生读操作之前不阻塞写操作，可以让当前的goroutine继续向下运行；但是当缓冲区满了之后，如果发生了写操作那么运行的行为和结果与不带缓冲区的channel是一样的。同样的如果缓冲区没有数据，进行读操作一样会阻塞。</strong></font></p>
+<p>就是这么简单，没有多复杂，带不带缓冲区跟异步同步没有关系，仅仅就是一个缓冲区，仅仅是在行为上有点同步和异步的样子。<font color="#777"><strong>(看网上其他的文章说明这个的时候，差点把我整蒙圈了</strong>。囧)</font></p>
+<h1 id="chan的读取"><a href="#chan的读取" class="headerlink" title="chan的读取"></a>chan的读取</h1><h2 id="一般读取"><a href="#一般读取" class="headerlink" title="一般读取"></a>一般读取</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;, <span class="number">3</span>)</span><br><span class="line">    c &lt;- <span class="string">"hello"</span></span><br><span class="line">    v := &lt;-c</span><br><span class="line">    fmt.Println(v)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出：</span></span><br><span class="line"><span class="comment">//hello</span></span><br></pre></td></tr></table></figure>
+<h2 id="带关闭标记的读取"><a href="#带关闭标记的读取" class="headerlink" title="带关闭标记的读取"></a>带关闭标记的读取</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;, <span class="number">3</span>)</span><br><span class="line">	c &lt;- <span class="string">"hello"</span></span><br><span class="line">	<span class="built_in">close</span>(c)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">2</span>; i &gt; <span class="number">0</span>; i-- &#123;</span><br><span class="line">		<span class="keyword">if</span> v, ok := &lt;-c; ok &#123;</span><br><span class="line">			fmt.Println(v)</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			fmt.Println(<span class="string">"closed"</span>)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//输出：</span></span><br><span class="line"><span class="comment">//hello</span></span><br><span class="line"><span class="comment">//closed</span></span><br></pre></td></tr></table></figure>
+<h2 id="for循环读取"><a href="#for循环读取" class="headerlink" title="for循环读取"></a>for循环读取</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">"fmt"</span></span><br><span class="line">	<span class="string">"time"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> stop <span class="keyword">chan</span> <span class="keyword">int</span> = <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">int</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;, <span class="number">3</span>)</span><br><span class="line">	<span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">5</span>; i++ &#123;</span><br><span class="line">			time.Sleep(<span class="number">1</span> * time.Second)</span><br><span class="line">			c &lt;- fmt.Sprintf(<span class="string">"Hello %d"</span>, i)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;()</span><br><span class="line">	<span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">5</span>; i++ &#123;</span><br><span class="line">			fmt.Println(&lt;-c)</span><br><span class="line">		&#125;</span><br><span class="line">		stop &lt;- <span class="number">0</span></span><br><span class="line">	&#125;()</span><br><span class="line">	Listen()</span><br><span class="line">	fmt.Println(<span class="string">"stop"</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//此方法的作用：阻塞，让循环完成</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">Listen</span><span class="params">()</span></span> &#123;</span><br><span class="line">	&lt;-stop</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 输出：</span></span><br><span class="line"><span class="comment">// Hello 0</span></span><br><span class="line"><span class="comment">// Hello 1</span></span><br><span class="line"><span class="comment">// Hello 2</span></span><br><span class="line"><span class="comment">// Hello 3</span></span><br><span class="line"><span class="comment">// Hello 4</span></span><br><span class="line"><span class="comment">// stop</span></span><br></pre></td></tr></table></figure>
+<h2 id="range读取"><a href="#range读取" class="headerlink" title="range读取"></a>range读取</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">"fmt"</span></span><br><span class="line">	<span class="string">"time"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> stop <span class="keyword">chan</span> <span class="keyword">int</span> = <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">int</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;, <span class="number">3</span>)</span><br><span class="line">	<span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">5</span>; i++ &#123;</span><br><span class="line">			time.Sleep(<span class="number">1</span> * time.Second)</span><br><span class="line">			c &lt;- fmt.Sprintf(<span class="string">"Hello %d"</span>, i)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">close</span>(c)</span><br><span class="line">	&#125;()</span><br><span class="line">	<span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">		<span class="keyword">for</span> v := <span class="keyword">range</span> c &#123;</span><br><span class="line">			fmt.Println(v)</span><br><span class="line">		&#125;</span><br><span class="line">		stop &lt;- <span class="number">0</span></span><br><span class="line">	&#125;()</span><br><span class="line">	Listen()</span><br><span class="line">	fmt.Println(<span class="string">"stop"</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//此方法的作用：阻塞，让循环完成</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">Listen</span><span class="params">()</span></span> &#123;</span><br><span class="line">	&lt;-stop</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<font color="#FF4444"><strong>range无法像普通读取那样获取第二个参数(channel的close标记：”ok”)，当close之后，会自动跳出循环，如果不关闭，就会处于阻塞状态，等待数据。</strong></font>
+
+<h2 id="select读取"><a href="#select读取" class="headerlink" title="select读取"></a>select读取</h2><p>select比较强大，它会优先执行case中没有阻塞的case。</p>
+<p>我这里总结了4个常用的case的类型：</p>
+<ul>
+<li>channel可读：channel可读则返回，没有写操作或者缓冲区为空则阻塞</li>
+<li>channel可写：channel可写则返回，没有读操作或者缓冲区已满则阻塞</li>
+<li>超时：超时之后返回，超时时间内阻塞</li>
+<li>default：立即返回，永不阻塞</li>
+</ul>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">"fmt"</span></span><br><span class="line">	<span class="string">"time"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> stop <span class="keyword">chan</span> <span class="keyword">int</span> = <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">int</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;, <span class="number">3</span>)</span><br><span class="line">	<span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">5</span>; i++ &#123;</span><br><span class="line">			time.Sleep(<span class="number">3</span> * time.Second)</span><br><span class="line">			c &lt;- fmt.Sprintf(<span class="string">"Hello %d"</span>, i)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">close</span>(c)</span><br><span class="line">	&#125;()</span><br><span class="line">	<span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">	LOOP:</span><br><span class="line">		<span class="keyword">for</span> &#123;</span><br><span class="line">			<span class="keyword">select</span> &#123;</span><br><span class="line">			<span class="keyword">case</span> &lt;-time.After(time.Second):</span><br><span class="line">				fmt.Println(<span class="string">"time out"</span>)</span><br><span class="line">			<span class="keyword">case</span> v, ok := &lt;-c:</span><br><span class="line">				<span class="keyword">if</span> !ok &#123;</span><br><span class="line">					<span class="keyword">break</span> LOOP</span><br><span class="line">				&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">					fmt.Println(v)</span><br><span class="line">				&#125; </span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		stop &lt;- <span class="number">0</span></span><br><span class="line">	&#125;()</span><br><span class="line">	Listen()</span><br><span class="line">	fmt.Println(<span class="string">"stop"</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">Listen</span><span class="params">()</span></span> &#123;</span><br><span class="line">	&lt;-stop</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><font color="#FF4444">说明：当for和select一起使用的时候只使用break是无法跳出for循环的，必须使用带标记的break或者goto语句才行。</font></p>
+<h1 id="关闭chan"><a href="#关闭chan" class="headerlink" title="关闭chan"></a>关闭chan</h1><p>chan的关闭是指关闭chan的写入，可以继续读取。<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	c := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">interface</span>&#123;&#125;, <span class="number">3</span>)</span><br><span class="line">	c &lt;- <span class="string">"hello"</span></span><br><span class="line">	c &lt;- <span class="string">"chan"</span></span><br><span class="line">	<span class="built_in">close</span>(c)</span><br><span class="line">	<span class="comment">//c &lt;- "error"</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">4</span>; i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> v, ok := &lt;-c; ok &#123;</span><br><span class="line">			fmt.Println(v)</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123; </span><br><span class="line">			fmt.Println(v,<span class="string">"closed"</span>)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//输出：</span></span><br><span class="line"><span class="comment">// hello</span></span><br><span class="line"><span class="comment">// chan</span></span><br><span class="line"><span class="comment">// &lt;nil&gt; closed</span></span><br><span class="line"><span class="comment">// &lt;nil&gt; closed</span></span><br><span class="line"><span class="comment">//如果不注释第10行的话，就会报出下面的错误：</span></span><br><span class="line"><span class="comment">//panic: send on closed channel</span></span><br></pre></td></tr></table></figure></p>
+<p>如果chan不关闭的话第12行代码就会阻塞，如果关闭并且chan中的数据全部取完，ok就会返回false，v就会返回nil。具体使用时，一定要弄清楚自己要表达的逻辑。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/08/06/distributed/distributed-algorithm/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/06/distributed/distributed-algorithm/" itemprop="url">分布式一致性算法</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-06T14:32:34+08:00">
+                2018-08-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/分布式/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/06/distributed/distributed-algorithm/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/08/06/distributed/distributed-algorithm/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="轮询算法-Round-Robin"><a href="#轮询算法-Round-Robin" class="headerlink" title="轮询算法(Round Robin)"></a>轮询算法(Round Robin)</h1><p>假设有一组服务器N台，S = {S1, S2, …, Sn}，一个指示变量i表示上一次选择的服务器ID。变量i被初始化为N-1。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">j = i;</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">&#123;</span><br><span class="line">    j = (j + <span class="number">1</span>) mod n;</span><br><span class="line">    <span class="keyword">if</span> (W(Sj) &gt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        i = j;</span><br><span class="line">        <span class="keyword">return</span> Si;</span><br><span class="line">    &#125;</span><br><span class="line">&#125; <span class="keyword">while</span> (j != i);</span><br><span class="line"><span class="keyword">return</span> <span class="literal">NULL</span>;</span><br></pre></td></tr></table></figure>
+<h1 id="加权轮询调度算法-Weight-Round-Robin"><a href="#加权轮询调度算法-Weight-Round-Robin" class="headerlink" title="加权轮询调度算法(Weight Round Robin)"></a>加权轮询调度算法(Weight Round Robin)</h1><p>假设有一组服务器S = {S0, S1, …, Sn-1}，W(Si)表示服务器Si的权值，一个指示变量i表示上一次选择的服务器，指示变量cw表示当前调度的权值，max(S)表示集合S中所有服务器的最大权值，gcd(S)表示集合S中所有服务器权值的最大公约数。变量i初始化为-1，cw初始化为零。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> (<span class="literal">true</span>) &#123; </span><br><span class="line">  i = (i + <span class="number">1</span>) mod n; </span><br><span class="line">  <span class="keyword">if</span> (i == <span class="number">0</span>) &#123; </span><br><span class="line">     cw = cw - gcd(S); </span><br><span class="line">     <span class="keyword">if</span> (cw &lt;= <span class="number">0</span>) &#123; </span><br><span class="line">       cw = max(S); </span><br><span class="line">       <span class="keyword">if</span> (cw == <span class="number">0</span>) </span><br><span class="line">         <span class="keyword">return</span> <span class="literal">NULL</span>; </span><br><span class="line">     &#125; </span><br><span class="line">  &#125; </span><br><span class="line">  <span class="keyword">if</span> (W(Si) &gt;= cw) </span><br><span class="line">    <span class="keyword">return</span> Si; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="源地址哈希-Source-Hashing"><a href="#源地址哈希-Source-Hashing" class="headerlink" title="源地址哈希(Source Hashing)"></a>源地址哈希(Source Hashing)</h1><h1 id="目标地址hash-Destination-Hashing"><a href="#目标地址hash-Destination-Hashing" class="headerlink" title="目标地址hash(Destination Hashing)"></a>目标地址hash(Destination Hashing)</h1><p>静态调度算法(static Schedu)<br>动态调度算法(dynamic Schedu)</p>
+<h1 id="最少连接-Least-Connection-Scheduling"><a href="#最少连接-Least-Connection-Scheduling" class="headerlink" title="最少连接(Least-Connection Scheduling)"></a>最少连接(Least-Connection Scheduling)</h1><h1 id="加权最少连接-Weighted-Least-Connection-Scheduling"><a href="#加权最少连接-Weighted-Least-Connection-Scheduling" class="headerlink" title="加权最少连接(Weighted Least-Connection Scheduling)"></a>加权最少连接(Weighted Least-Connection Scheduling)</h1><h1 id="最少期望延迟-shortest-expected-delay-scheduling"><a href="#最少期望延迟-shortest-expected-delay-scheduling" class="headerlink" title="最少期望延迟(shortest expected delay scheduling)"></a>最少期望延迟(shortest expected delay scheduling)</h1><h1 id="永不排队-Never-Queue-Scheduling"><a href="#永不排队-Never-Queue-Scheduling" class="headerlink" title="永不排队(Never Queue Scheduling)"></a>永不排队(Never Queue Scheduling)</h1><h1 id="基于局部性的最少连接-Locality-Based-Least-Connections"><a href="#基于局部性的最少连接-Locality-Based-Least-Connections" class="headerlink" title="基于局部性的最少连接(Locality-Based Least Connections)"></a>基于局部性的最少连接(Locality-Based Least Connections)</h1><h1 id="基于局部性的带复制功能的最少连接-Locality-Based-Least-Connections-with-Replication"><a href="#基于局部性的带复制功能的最少连接-Locality-Based-Least-Connections-with-Replication" class="headerlink" title="基于局部性的带复制功能的最少连接(Locality-Based Least Connections with Replication)"></a>基于局部性的带复制功能的最少连接(Locality-Based Least Connections with Replication)</h1>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/08/01/algorithm/algorithm-base/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/01/algorithm/algorithm-base/" itemprop="url">算法之基础</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-01T14:26:11+08:00">
+                2018-08-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/算法/" itemprop="url" rel="index">
+                    <span itemprop="name">算法</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/01/algorithm/algorithm-base/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/08/01/algorithm/algorithm-base/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="基本结构"><a href="#基本结构" class="headerlink" title="基本结构"></a>基本结构</h2><ul>
+<li>顺序执行</li>
+<li>循环执行<ul>
+<li>for</li>
+<li>while</li>
+<li>递归</li>
+</ul>
+</li>
+<li>分支和跳转<ul>
+<li>if</li>
+<li>switch</li>
+</ul>
+</li>
+</ul>
+<h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><ul>
+<li>数组</li>
+<li>链表</li>
+<li>栈</li>
+<li>队列</li>
+</ul>
+<h2 id="复杂的数据结构"><a href="#复杂的数据结构" class="headerlink" title="复杂的数据结构"></a>复杂的数据结构</h2><ul>
+<li>树</li>
+<li>集合</li>
+<li>哈希和映射</li>
+<li>图</li>
+</ul>
+<h2 id="算法思想"><a href="#算法思想" class="headerlink" title="算法思想"></a>算法思想</h2><ul>
+<li>贪心算法</li>
+<li>分治法</li>
+<li>动态规划</li>
+<li>穷举<ul>
+<li>盲目搜索</li>
+<li>启发式搜索</li>
+<li>剪枝策略 </li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/08/01/algorithm/algorithm-array/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/01/algorithm/algorithm-array/" itemprop="url">算法之数组</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-01T14:26:11+08:00">
+                2018-08-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/算法/" itemprop="url" rel="index">
+                    <span itemprop="name">算法</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/01/algorithm/algorithm-array/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/08/01/algorithm/algorithm-array/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="数组的遍历"><a href="#数组的遍历" class="headerlink" title="数组的遍历"></a>数组的遍历</h1><h2 id="顺序遍历"><a href="#顺序遍历" class="headerlink" title="顺序遍历"></a>顺序遍历</h2><p>算法复杂度：O(N)<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">3</span>] = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">3</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d "</span>,i);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>输出：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0 1 2</span><br></pre></td></tr></table></figure></p>
+<h2 id="双层循环遍历"><a href="#双层循环遍历" class="headerlink" title="双层循环遍历"></a>双层循环遍历</h2><h3 id="全量的循环"><a href="#全量的循环" class="headerlink" title="全量的循环"></a>全量的循环</h3><p>算法复杂度：O(N^2)<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">3</span>] = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">3</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;<span class="number">3</span>;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d:%d "</span>,i,j);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>输出：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0:0 0:1 0:2 1:0 1:1 1:2 2:0 2:1 2:2</span><br></pre></td></tr></table></figure></p>
+<h3 id="非重复的循环"><a href="#非重复的循环" class="headerlink" title="非重复的循环"></a>非重复的循环</h3><pre><code>即如果1:0已经出现过了，那么0:1就不用再遍历一边了 
+</code></pre><p>算法复杂度：O(N!) –&gt; O(N^(N-1))<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">3</span>] = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">3</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=i;j&lt;<span class="number">3</span>;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d:%d "</span>,i,j);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>输出：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0:0 0:1 0:2 1:1 1:2 2:2</span><br></pre></td></tr></table></figure></p>
+<h3 id="条件选择遍历"><a href="#条件选择遍历" class="headerlink" title="条件选择遍历"></a>条件选择遍历</h3><p>算法复杂度：O(n)<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">7</span>] = &#123;<span class="number">5</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">1</span>,<span class="number">2</span>&#125;;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="keyword">sizeof</span>(arr)/<span class="keyword">sizeof</span>(arr[<span class="number">0</span>]);</span><br><span class="line">    <span class="comment">//以上是模拟一个数组的输入</span></span><br><span class="line">    <span class="keyword">int</span> start = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> end = n-start<span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(start!=end)</span><br><span class="line">    &#123;</span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"%d:%d "</span>,arr[start],arr[end]);</span><br><span class="line">       <span class="comment">//按照两边的大小舍弃小边遍历</span></span><br><span class="line">       <span class="comment">//具体使用的时候可以按照实际逻辑选取</span></span><br><span class="line">       <span class="keyword">if</span> (arr[start]&lt;arr[end])</span><br><span class="line">       &#123;</span><br><span class="line">           start++;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">else</span></span><br><span class="line">       &#123;</span><br><span class="line">           end--;</span><br><span class="line">       &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>输出：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5,2 5,1 5,7 3,7 4,7 6,7</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/07/31/distributed/kafka-install/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/31/distributed/kafka-install/" itemprop="url">在Docker中运行kafka</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-31T18:13:38+08:00">
+                2018-07-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/分布式/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/31/distributed/kafka-install/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/07/31/distributed/kafka-install/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>需要<a href="https://aviyu.com/2018/07/30/distributed/zookeeper-install/" target="_blank" rel="noopener">安装zookeeper</a></p>
+<pre><code class="yml"><span class="attr">kafka1:</span>
+<span class="attr">    image:</span> <span class="string">wurstmeister/kafka</span>
+<span class="attr">    ports:</span>
+<span class="bullet">      -</span> <span class="string">"9092:9092"</span>
+<span class="attr">    environment:</span>
+<span class="attr">      KAFKA_ADVERTISED_HOST_NAME:</span> <span class="string">localhost</span>
+<span class="attr">      KAFKA_ZOOKEEPER_CONNECT:</span> <span class="string">"zookeeper:2181"</span>
+<span class="attr">      KAFKA_BROKER_ID:</span> <span class="number">1</span>
+<span class="attr">      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR:</span> <span class="number">3</span>
+<span class="attr">      KAFKA_CREATE_TOPICS:</span> <span class="string">"stream-in:1:1,stream-out:1:1"</span> 
+<span class="attr">    container_name:</span> <span class="string">kafka</span>
+
+<span class="attr">  kafka_manager:</span>
+<span class="attr">    image:</span> <span class="string">hlebalbau/kafka-manager:latest</span>
+<span class="attr">    ports:</span>
+<span class="bullet">      -</span> <span class="string">"9000:9000"</span>
+<span class="attr">    environment:</span>
+<span class="attr">      ZK_HOSTS:</span> <span class="string">"zookeeper:2181"</span>
+<span class="attr">      APPLICATION_SECRET:</span> <span class="string">"random-secret"</span>
+<span class="attr">    command:</span> <span class="bullet">-Dpidfile.path=/dev/null</span>
+<span class="attr">    container_name:</span> <span class="string">kafka_manager</span>
+</code></pre>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/07/30/distributed/zookeeper-install/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/30/distributed/zookeeper-install/" itemprop="url">在Docker中运行zookeeper</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-30T17:31:47+08:00">
+                2018-07-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/分布式/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/30/distributed/zookeeper-install/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/07/30/distributed/zookeeper-install/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>在安装zookerkeeper之前，需要先安装docker和docker-compose工具</p>
+<p>docker-compose.yml文件的内容如下：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.1'</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line"><span class="attr">  zoo1:</span></span><br><span class="line"><span class="attr">    image:</span> <span class="string">zookeeper</span></span><br><span class="line"><span class="attr">    restart:</span> <span class="string">always</span> </span><br><span class="line"><span class="attr">    ports:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">2181</span><span class="string">:2181</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">2888</span><span class="string">:2888</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">3888</span><span class="string">:3888</span></span><br><span class="line"><span class="attr">    environment:</span></span><br><span class="line"><span class="attr">      ZOO_MY_ID:</span> <span class="number">1</span></span><br><span class="line"><span class="attr">      ZOO_SERVERS:</span> <span class="string">server.1=0.0.0.0:2888:3888</span> <span class="string">server.2=zoo2:2888:3888</span> <span class="string">server.3=zoo3:2888:3888</span></span><br><span class="line"><span class="attr">    container_name:</span></span><br><span class="line">      <span class="string">zookeeper</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.1'</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line"><span class="attr">  zoo2:</span></span><br><span class="line"><span class="attr">    image:</span> <span class="string">zookeeper</span></span><br><span class="line"><span class="attr">    restart:</span> <span class="string">always</span> </span><br><span class="line"><span class="attr">    ports:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">2181</span><span class="string">:2181</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">2888</span><span class="string">:2888</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">3888</span><span class="string">:3888</span></span><br><span class="line"><span class="attr">    environment:</span></span><br><span class="line"><span class="attr">      ZOO_MY_ID:</span> <span class="number">2</span></span><br><span class="line"><span class="attr">      ZOO_SERVERS:</span> <span class="string">server.1=zoo1:2888:3888</span> <span class="string">server.2=0.0.0.0:2888:3888</span> <span class="string">server.3=zoo3:2888:3888</span></span><br><span class="line"><span class="attr">    container_name:</span></span><br><span class="line">      <span class="string">zookeeper</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.1'</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line"><span class="attr">  zoo3:</span></span><br><span class="line"><span class="attr">    image:</span> <span class="string">zookeeper</span></span><br><span class="line"><span class="attr">    restart:</span> <span class="string">always</span> </span><br><span class="line"><span class="attr">    ports:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">2181</span><span class="string">:2181</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">2888</span><span class="string">:2888</span></span><br><span class="line"><span class="bullet">      -</span> <span class="number">3888</span><span class="string">:3888</span></span><br><span class="line"><span class="attr">    environment:</span></span><br><span class="line"><span class="attr">      ZOO_MY_ID:</span> <span class="number">3</span></span><br><span class="line"><span class="attr">      ZOO_SERVERS:</span> <span class="string">server.1=zoo1:2888:3888</span> <span class="string">server.2=zoo2:2888:3888</span> <span class="string">server.3=0.0.0.0:2888:3888</span></span><br><span class="line"><span class="attr">    container_name:</span></span><br><span class="line">      <span class="string">zookeeper</span></span><br></pre></td></tr></table></figure>
+<p>上面使用变量修改配置，如果需要修改配置文件，可以使用挂载</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">volumes:</span>  </span><br><span class="line"><span class="bullet">  -</span> <span class="string">/data/zookeeper/conf/zoo.cfg:/conf/zoo.cfg</span> <span class="comment">#配置文件路径</span></span><br><span class="line"><span class="bullet">  -</span> <span class="string">/data/zookeeper/data:/data</span> <span class="comment">#数据目录</span></span><br><span class="line"><span class="bullet">  -</span> <span class="string">/data/zookeeper/datalog:/datalog</span> <span class="comment">#日志目录</span></span><br></pre></td></tr></table></figure>
+<p>配置设置有以下变量：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">ZOO_INIT_LIMIT</span><br><span class="line">ZOO_SYNC_LIMIT</span><br><span class="line">ZOO_MAX_CLIENT_CNXNS</span><br><span class="line">ZOO_STANDALONE_ENABLED</span><br><span class="line"></span><br><span class="line">ZOO_MY_ID</span><br><span class="line">ZOO_SERVERS</span><br></pre></td></tr></table></figure></p>
+<p>分别运行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker-compose up -d</span><br></pre></td></tr></table></figure>
+<p>即可</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/07/24/distributed/rabbitmq/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/24/distributed/rabbitmq/" itemprop="url">rabbitmq初探</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-24T10:49:51+08:00">
+                2018-07-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/分布式/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/24/distributed/rabbitmq/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/07/24/distributed/rabbitmq/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>利用docker镜像启动rabbitmq，其中management版本带有管理界面<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --hostname my-rabbit --name some-rabbit \</span><br><span class="line">-p 5671:5671 -p 5672:5672  -p 15672:15672 -p 15671:15671  -p 25672:25672 \</span><br><span class="line">-v /data/rabbitmq-data/:/var/rabbitmq/lib \</span><br><span class="line">rabbitmq:3-management</span><br></pre></td></tr></table></figure></p>
+<p>启动之后就可以使用 <a href="http://localhost:15672" target="_blank" rel="noopener">http://localhost:15672</a> 来访问了<br>默认账号和密码都是guest</p>
+<h2 id="使用Golang链接"><a href="#使用Golang链接" class="headerlink" title="使用Golang链接"></a>使用Golang链接</h2><p>生产者代码<br><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">"log"</span></span><br><span class="line">	<span class="string">"strconv"</span></span><br><span class="line">	<span class="string">"time"</span></span><br><span class="line"></span><br><span class="line">	<span class="string">"github.com/streadway/amqp"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">failOnError</span><span class="params">(err error, msg <span class="keyword">string</span>)</span></span> &#123;</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		log.Fatalf(<span class="string">"%s: %s"</span>, msg, err)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	conn, err := amqp.Dial(<span class="string">"amqp://guest:guest@localhost:5672/"</span>)</span><br><span class="line">	failOnError(err, <span class="string">"Failed to connect to RabbitMQ"</span>)</span><br><span class="line">	<span class="keyword">defer</span> conn.Close()</span><br><span class="line"></span><br><span class="line">	ch, err := conn.Channel()</span><br><span class="line">	failOnError(err, <span class="string">"Failed to open a channel"</span>)</span><br><span class="line">	<span class="keyword">defer</span> ch.Close()</span><br><span class="line"></span><br><span class="line">	q, err := ch.QueueDeclare(</span><br><span class="line">		<span class="string">"hello"</span>, <span class="comment">// name</span></span><br><span class="line">		<span class="literal">false</span>,   <span class="comment">// durable</span></span><br><span class="line">		<span class="literal">false</span>,   <span class="comment">// delete when unused</span></span><br><span class="line">		<span class="literal">false</span>,   <span class="comment">// exclusive</span></span><br><span class="line">		<span class="literal">false</span>,   <span class="comment">// no-wait</span></span><br><span class="line">		<span class="literal">nil</span>,     <span class="comment">// arguments</span></span><br><span class="line">	)</span><br><span class="line">	failOnError(err, <span class="string">"Failed to declare a queue"</span>)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= <span class="number">200000</span>; i++ &#123;</span><br><span class="line">		body := <span class="string">"hello "</span> + strconv.Itoa(i) + <span class="string">":"</span> + time.Now().Format(<span class="string">"15:04:05"</span>)</span><br><span class="line">		err = ch.Publish(</span><br><span class="line">			<span class="string">""</span>,     <span class="comment">// exchange</span></span><br><span class="line">			q.Name, <span class="comment">// routing key</span></span><br><span class="line">			<span class="literal">false</span>,  <span class="comment">// mandatory</span></span><br><span class="line">			<span class="literal">false</span>,  <span class="comment">// immediate</span></span><br><span class="line">			amqp.Publishing&#123;</span><br><span class="line">				ContentType: <span class="string">"text/plain"</span>,</span><br><span class="line">				Body:        []<span class="keyword">byte</span>(body),</span><br><span class="line">			&#125;)</span><br><span class="line">		log.Printf(<span class="string">" [x] Sent %s"</span>, body)</span><br><span class="line">		failOnError(err, <span class="string">"Failed to publish a message"</span>)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>消费者<br><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">"log"</span></span><br><span class="line"></span><br><span class="line">	<span class="string">"github.com/streadway/amqp"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">failOnError</span><span class="params">(err error, msg <span class="keyword">string</span>)</span></span> &#123;</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		log.Fatalf(<span class="string">"%s: %s"</span>, msg, err)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	conn, err := amqp.Dial(<span class="string">"amqp://guest:guest@localhost:5672/"</span>)</span><br><span class="line">	failOnError(err, <span class="string">"Failed to connect to RabbitMQ"</span>)</span><br><span class="line">	<span class="keyword">defer</span> conn.Close()</span><br><span class="line"></span><br><span class="line">	ch, err := conn.Channel()</span><br><span class="line">	failOnError(err, <span class="string">"Failed to open a channel"</span>)</span><br><span class="line">	<span class="keyword">defer</span> ch.Close()</span><br><span class="line"></span><br><span class="line">	q, err := ch.QueueDeclare(</span><br><span class="line">		<span class="string">"hello"</span>, <span class="comment">// name</span></span><br><span class="line">		<span class="literal">false</span>,   <span class="comment">// durable</span></span><br><span class="line">		<span class="literal">false</span>,   <span class="comment">// delete when unused</span></span><br><span class="line">		<span class="literal">false</span>,   <span class="comment">// exclusive</span></span><br><span class="line">		<span class="literal">false</span>,   <span class="comment">// no-wait</span></span><br><span class="line">		<span class="literal">nil</span>,     <span class="comment">// arguments</span></span><br><span class="line">	)</span><br><span class="line">	failOnError(err, <span class="string">"Failed to declare a queue"</span>)</span><br><span class="line"></span><br><span class="line">	msgs, err := ch.Consume(</span><br><span class="line">		q.Name, <span class="comment">// queue</span></span><br><span class="line">		<span class="string">""</span>,     <span class="comment">// consumer</span></span><br><span class="line">		<span class="literal">true</span>,   <span class="comment">// auto-ack</span></span><br><span class="line">		<span class="literal">false</span>,  <span class="comment">// exclusive</span></span><br><span class="line">		<span class="literal">false</span>,  <span class="comment">// no-local</span></span><br><span class="line">		<span class="literal">false</span>,  <span class="comment">// no-wait</span></span><br><span class="line">		<span class="literal">nil</span>,    <span class="comment">// args</span></span><br><span class="line">	)</span><br><span class="line">	failOnError(err, <span class="string">"Failed to register a consumer"</span>)</span><br><span class="line"></span><br><span class="line">	forever := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">bool</span>)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">		<span class="keyword">for</span> d := <span class="keyword">range</span> msgs &#123;</span><br><span class="line">			log.Printf(<span class="string">"Received a message: %s"</span>, d.Body)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;()</span><br><span class="line"></span><br><span class="line">	log.Printf(<span class="string">" [*] Waiting for messages. To exit press CTRL+C"</span>)</span><br><span class="line">	&lt;-forever</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/05/08/database/package-design/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/08/database/package-design/" itemprop="url">一种套餐结构数据的数据库设计</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-08T13:31:05+08:00">
+                2018-05-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/数据库/" itemprop="url" rel="index">
+                    <span itemprop="name">数据库</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/08/database/package-design/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/05/08/database/package-design/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>商品数据库设计如下：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> <span class="keyword">IF</span> <span class="keyword">EXISTS</span> <span class="string">`product`</span>;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="string">`product`</span> (</span><br><span class="line">    <span class="string">`id`</span> <span class="built_in">INT</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> AUTO_INCREMENT PRIMARY <span class="keyword">KEY</span>, </span><br><span class="line">    <span class="string">`name`</span> <span class="keyword">NVARCHAR</span>(<span class="number">255</span>) <span class="keyword">UNIQUE</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> <span class="keyword">COMMENT</span> <span class="string">'商品名称'</span>,</span><br><span class="line">    <span class="string">`price`</span> <span class="built_in">DECIMAL</span>(<span class="number">12</span>,<span class="number">2</span>) <span class="keyword">DEFAULT</span> <span class="number">0</span> <span class="keyword">COMMENT</span> <span class="string">'价格'</span>  </span><br><span class="line">) <span class="keyword">ENGINE</span>=<span class="keyword">InnoDB</span> AUTO_INCREMENT=<span class="number">1</span> <span class="keyword">DEFAULT</span> <span class="keyword">CHARSET</span>=utf8 <span class="keyword">COMMENT</span>=<span class="string">'商品'</span>;</span><br></pre></td></tr></table></figure>
+<p>比如下面是我们的商品</p>
+<ul>
+<li>面条</li>
+<li>茶叶蛋</li>
+<li>油条</li>
+<li>豆腐脑</li>
+<li>豆浆</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> product(<span class="string">`name`</span>,<span class="string">`price`</span>)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">'面条'</span>,<span class="number">10</span>),</span><br><span class="line">(<span class="string">'茶叶蛋'</span>,<span class="number">2</span>),</span><br><span class="line">(<span class="string">'油条'</span>,<span class="number">5</span>),</span><br><span class="line">(<span class="string">'豆腐脑'</span>,<span class="number">5</span>),</span><br><span class="line">(<span class="string">'豆浆'</span>,<span class="number">7</span>)</span><br></pre></td></tr></table></figure>
+<p>假设我们推出了一款套餐——油条+豆浆+茶叶蛋，并且取名叫油豆茶套餐</p>
+<p>数据库设计如下：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> <span class="keyword">IF</span> <span class="keyword">EXISTS</span> <span class="string">`product`</span>;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="string">`product`</span> (</span><br><span class="line">    <span class="string">`id`</span> <span class="built_in">INT</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> AUTO_INCREMENT PRIMARY <span class="keyword">KEY</span>, </span><br><span class="line">    <span class="string">`package`</span> <span class="built_in">INT</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> <span class="keyword">DEFAULT</span> <span class="number">0</span> <span class="keyword">COMMENT</span> <span class="string">'0.非套餐，1.套餐'</span>,</span><br><span class="line">    <span class="string">`name`</span> <span class="keyword">NVARCHAR</span>(<span class="number">255</span>) <span class="keyword">UNIQUE</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> <span class="keyword">COMMENT</span> <span class="string">'商品名称'</span>,</span><br><span class="line">    <span class="string">`price`</span> <span class="built_in">DECIMAL</span>(<span class="number">12</span>,<span class="number">2</span>) <span class="keyword">DEFAULT</span> <span class="number">0</span> <span class="keyword">COMMENT</span> <span class="string">'价格'</span>  </span><br><span class="line">) <span class="keyword">ENGINE</span>=<span class="keyword">InnoDB</span> AUTO_INCREMENT=<span class="number">1</span> <span class="keyword">DEFAULT</span> <span class="keyword">CHARSET</span>=utf8 <span class="keyword">COMMENT</span>=<span class="string">'商品'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> <span class="keyword">IF</span> <span class="keyword">EXISTS</span> <span class="string">`relation_product_package`</span>; </span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="string">`relation_product_package`</span> (</span><br><span class="line">    <span class="string">`id`</span> <span class="built_in">INT</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> AUTO_INCREMENT PRIMARY <span class="keyword">KEY</span>, </span><br><span class="line">    <span class="string">`package_id`</span> <span class="built_in">INT</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> <span class="keyword">COMMENT</span> <span class="string">'套餐id'</span>,</span><br><span class="line">    <span class="string">`product_id`</span> <span class="built_in">INT</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> <span class="keyword">COMMENT</span> <span class="string">'商品id'</span>,</span><br><span class="line">    <span class="string">`price`</span> <span class="built_in">DECIMAL</span>(<span class="number">11</span>,<span class="number">2</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span> <span class="keyword">COMMENT</span> <span class="string">'价格'</span> <span class="keyword">DEFAULT</span> <span class="number">0</span> </span><br><span class="line">)  <span class="keyword">ENGINE</span>=<span class="keyword">INNODB</span> AUTO_INCREMENT=<span class="number">1</span> <span class="keyword">DEFAULT</span> <span class="keyword">CHARSET</span>=UTF8 <span class="keyword">COMMENT</span>=<span class="string">'套餐关系'</span>;</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> product(<span class="string">`package`</span>,<span class="string">`name`</span>,<span class="string">`price`</span>)</span><br><span class="line"><span class="keyword">VALUES</span> (<span class="number">1</span>,<span class="string">'油豆茶套餐'</span>,<span class="number">11</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> relation_product_package(<span class="string">`package_id`</span>,<span class="string">`product_id`</span>,<span class="string">`price`</span>)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">6</span>,<span class="number">3</span>,<span class="number">4</span>),</span><br><span class="line">(<span class="number">6</span>,<span class="number">5</span>,<span class="number">6</span>),</span><br><span class="line">(<span class="number">6</span>,<span class="number">2</span>,<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+<p>我们的“油豆茶”既是一种套餐，又是一种商品，查询时我们可以<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELET * FROM product</span><br></pre></td></tr></table></figure></p>
+<p>查询出所有可售商品</p>
+<p>我们也可以按照下面的Join查询得到套餐详情，我们甚至可以给套餐内的商品指定不同的价格（套餐价）：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    p.name <span class="keyword">AS</span> package_name, p.price <span class="keyword">AS</span> package_price, </span><br><span class="line">    p2.name <span class="keyword">AS</span> product_name,</span><br><span class="line">    p2.price <span class="keyword">AS</span> origin_price,r.price <span class="keyword">AS</span> package_price</span><br><span class="line"><span class="keyword">FROM</span></span><br><span class="line">    product p</span><br><span class="line">        <span class="keyword">JOIN</span></span><br><span class="line">    relation_product_package r <span class="keyword">ON</span> r.package_id = p.id</span><br><span class="line">        <span class="keyword">JOIN</span></span><br><span class="line">    product p2 <span class="keyword">ON</span> r.product_id = p2.id</span><br></pre></td></tr></table></figure>
+<p>结果如下：</p>
+<table>
+<thead>
+<tr>
+<th>package_name</th>
+<th>package_price</th>
+<th>product_name</th>
+<th>origin_price</th>
+<th>package_price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>油豆茶套餐</td>
+<td>11.00</td>
+<td>油条</td>
+<td>5.00</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>油豆茶套餐</td>
+<td>11.00</td>
+<td>豆浆</td>
+<td>7.00</td>
+<td>6.00</td>
+</tr>
+<tr>
+<td>油豆茶套餐</td>
+<td>11.00</td>
+<td>茶叶蛋</td>
+<td>2.00</td>
+<td>1.00</td>
+</tr>
+</tbody>
+</table>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/04/16/linux/alpine-dockerfile/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/16/linux/alpine-dockerfile/" itemprop="url">alpine添加c++相关</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-16T15:42:00+08:00">
+                2018-04-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/linux/" itemprop="url" rel="index">
+                    <span itemprop="name">linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/16/linux/alpine-dockerfile/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/04/16/linux/alpine-dockerfile/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">FROM golang:alpine</span><br><span class="line"></span><br><span class="line">RUN echo http://mirrors.ustc.edu.cn/alpine/latest-stable/main &gt; /etc/apk/repositories; \</span><br><span class="line">echo http://mirrors.ustc.edu.cn/alpine/latest-stable/community &gt;&gt; /etc/apk/repositories</span><br><span class="line"></span><br><span class="line">RUN apk update</span><br><span class="line"></span><br><span class="line">RUN apk add gcc musl-dev g++</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.aviyu.com/2018/04/13/http/acme/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Aviyu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aviyu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/13/http/acme/" itemprop="url">利用acme生成免费的https有效证书</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-13T15:32:01+08:00">
+                2018-04-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/13/http/acme/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/04/13/http/acme/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://get.acme.sh | sh</span><br></pre></td></tr></table></figure>
+<p>没有curl工具，没关系，可以这样装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O -  https://get.acme.sh | sh</span><br></pre></td></tr></table></figure></p>
+<p>没有wget工具，没关系，可以这样装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/Neilpang/acme.sh.git</span><br><span class="line">cd ./acme.sh</span><br><span class="line">./acme.sh --install</span><br></pre></td></tr></table></figure></p>
+<h1 id="生成证书"><a href="#生成证书" class="headerlink" title="生成证书"></a>生成证书</h1><h2 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">acme.sh  --issue  -d example.com  --nginx</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">acme.sh --install-cert -d example.com \</span><br><span class="line">--key-file       /path/to/keyfile/in/nginx/key.pem  \</span><br><span class="line">--fullchain-file /path/to/fullchain/nginx/cert.pem \</span><br><span class="line">--reloadcmd     &quot;service nginx force-reload&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="Apacke"><a href="#Apacke" class="headerlink" title="Apacke"></a>Apacke</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">acme.sh  --issue  -d example.com  --apache</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">acme.sh --install-cert -d example.com \</span><br><span class="line">--cert-file      /path/to/certfile/in/apache/cert.pem  \</span><br><span class="line">--key-file       /path/to/keyfile/in/apache/key.pem  \</span><br><span class="line">--fullchain-file /path/to/fullchain/certfile/apache/fullchain.pem \</span><br><span class="line">--reloadcmd     &quot;service apache2 force-reload&quot;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><em>以下的命令会临时监听 80 端口，请确保执行该命令前 80 端口没有使用</em></p>
+</blockquote>
+<h2 id="利用网站根目录申请"><a href="#利用网站根目录申请" class="headerlink" title="利用网站根目录申请"></a>利用网站根目录申请</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">acme.sh  --issue  -d example.com  -w /home/wwwroot/example.com</span><br></pre></td></tr></table></figure>
+<h2 id="没有网站，利用开放端口申请"><a href="#没有网站，利用开放端口申请" class="headerlink" title="没有网站，利用开放端口申请"></a>没有网站，利用开放端口申请</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">acme.sh  --issue  -d example.com  --standalone --httpport 88</span><br></pre></td></tr></table></figure>
+<h2 id="DNS-API"><a href="#DNS-API" class="headerlink" title="DNS API"></a>DNS API</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">export CF_Key=&quot;sdfsdfsdfljlbjkljlkjsdfoiwje&quot;</span><br><span class="line"></span><br><span class="line">export CF_Email=&quot;xxxx@sss.com&quot;</span><br><span class="line"></span><br><span class="line">acme.sh  --issue  -d example.com  --dns dns_cf</span><br></pre></td></tr></table></figure>
+<h2 id="DNS-manual"><a href="#DNS-manual" class="headerlink" title="DNS manual"></a>DNS manual</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">acme.sh  --issue  -d example.com  --dns</span><br></pre></td></tr></table></figure>
+<h1 id="安装证书"><a href="#安装证书" class="headerlink" title="安装证书"></a>安装证书</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/.acme.sh/acme.sh --installcert -d 域名 --fullchainpath /path/to/server.crt --keypath /path/to/server.key</span><br></pre></td></tr></table></figure>
+<h1 id="更新证书"><a href="#更新证书" class="headerlink" title="更新证书"></a>更新证书</h1><p>证书会自动每60天更新一次，如果要手动更新可以如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/.acme.sh/acme.sh --renew -d 域名 --force</span><br></pre></td></tr></table></figure></p>
+<h1 id="自动更新acme"><a href="#自动更新acme" class="headerlink" title="自动更新acme"></a>自动更新acme</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">acme.sh --upgrade --auto-upgrade</span><br></pre></td></tr></table></figure>
+<h1 id="关闭自动更新acme"><a href="#关闭自动更新acme" class="headerlink" title="关闭自动更新acme"></a>关闭自动更新acme</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">acme.sh --upgrade --auto-upgrade 0</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://github.com/aviyu/blogimages/blob/master/avatar.jpg?raw=true" alt="Aviyu">
+            
+              <p class="site-author-name" itemprop="name">Aviyu</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">40</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">18</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">44</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Aviyu</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://aviyu-com.disqus.com/count.js" async></script>
+    
+
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
